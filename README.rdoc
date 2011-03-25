@@ -1,0 +1,3 @@
+== Useful snippets for WinDev
+
+I will post useful code snippets for WinDev, WebDev and WinDev Mobile.
