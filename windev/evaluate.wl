@@ -17,8 +17,8 @@ RESULT %2
 
 MiCodigo is string = StringBuild(ProcToComp, MisVars, Formula)
 
-Result is string = Compile("MiFuncTemp", MiCodigo)
-IF Result <> "" THEN
+Res is string = Compile("MiFuncTemp", MiCodigo)
+IF Res <> "" THEN
     ExceptionThrow(1, "Error compiling the procedure: " + CR + MiCodigo)
 END
 
